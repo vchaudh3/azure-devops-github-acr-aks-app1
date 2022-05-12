@@ -25,7 +25,7 @@ stages:
   jobs:
   - job: Build
     displayName: Build
-    pool: "Azure Pipelines"
+    pool: SmallPool
       #vmImage: $(vmImageName)
     steps:
     - task: Docker@2
